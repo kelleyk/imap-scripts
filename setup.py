@@ -12,6 +12,7 @@ setup(
     url='http://github.com/kelleyk/imap-scripts',
     packages=['imap_scripts'],
     install_requires=[
+        'sqlalchemy',
     ],
     entry_points=dict(
         console_scripts=[
